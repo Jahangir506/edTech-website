@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 ::-webkit-scrollbar {
   display: none;
 }
@@ -12,23 +17,21 @@ h5,
 h1 {
   font-family: "Poppins", sans-serif;
 }
-p {
+
+p,
+small {
   font-family: "Poppins", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 /* navbar section */
 .navbar-button {
   background-color: white;
   color: #289bde;
-  border: 1px solid #289bde;
-  border-radius: 5px;
-  padding: 8px 33px;
-  font-size: 20px;
-  line-height: 5.313rem;
-}
-.navbar-anchor {
-  line-height: 3.75rem;
+  border: 0.63 solid #289bde;
+  border-radius: 0.313rem;
+  padding: 0.8rem 2.063rem;
+  font-size: 1rem;
 }
 /* navbar section */
 
@@ -47,19 +50,20 @@ p {
   opacity: 0.7;
 }
 .carousel-caption h5 {
-  font-size: 4.063rem;
-  font-weight: 600;
+  font-size: 3.7rem;
+  font-weight: 500;
 }
 .carousel-caption p {
-  font-size: 18px;
+  font-size: 1.125rem;
   top: 2rem;
 }
 .banner-button-bg {
   background-color: #289bde;
   color: white;
   border: none;
-  padding: 13px 33px;
-  border-radius: 5px;
+  padding: 0.563rem 1.25rem;
+  border-radius: 0.313rem;
+  font-size: 1rem;
 }
 /*-------------- 
     banner
@@ -72,6 +76,9 @@ p {
 .text-color {
   color: #289bde;
 }
+.discover-button-show {
+  display: none;
+}
 /* Discover Our Popular Courses */
 
 /* Explore The elearning Institute */
@@ -82,7 +89,7 @@ p {
   margin-right: 4.118rem;
 }
 .explore-my {
-  margin: 8.125rem auto;
+  margin: 6.125rem auto;
 }
 /* Explore The elearning Institute */
 
@@ -97,8 +104,8 @@ p {
   background-color: white;
   color: #289bde;
   border: none;
-  padding: 8px 33px;
-  border-radius: 5px;
+  padding: 0.5rem 2.063rem;
+  border-radius: 0.313rem;
 }
 /* Ready to join */
 
@@ -113,11 +120,11 @@ p {
   background-color: #289bde;
   color: white;
   border: none;
-  padding: 8px 20px;
-  border-radius: 5px;
+  padding: 0.5rem 2.063rem;
+  border-radius: 0.313rem;
 }
 .student-m {
-  margin: 8.125rem auto;
+  margin: 5.125rem auto;
 }
 /* Meet Our Successfull Students */
 
@@ -128,4 +135,46 @@ p {
 .feedback-student-card {
   width: 648px;
 }
+.student-dark-m {
+  margin-bottom: 0.1rem;
+}
+.feedback-star-color {
+  color: #fbbf24;
+}
 /* Some Students Feedback */
+
+/* Trusted by over 800+ companies */
+.Trusted-m {
+  margin-right: 3.4rem;
+}
+/* Trusted by over 800+ companies */
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .ready-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ready-flex-2 {
+    margin-right: 150px;
+  }
+
+  .explore-img img {
+    height: 70vh;
+  }
+  .student-margin {
+    margin-top: 1.25rem;
+  }
+  .Frequently-d-none {
+    display: none;
+  }
+  .discover-button-none {
+    display: none;
+  }
+  .discover-button-show {
+    display: initial;
+    margin-top: -50px;
+  }
+  .student-btn {
+    margin-top: 20px;
+  }
+}
