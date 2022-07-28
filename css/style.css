@@ -14,7 +14,8 @@ body {
 .nav-menu,
 .google-font-button,
 h5,
-h1 {
+h1,
+h4 {
   font-family: "Poppins", sans-serif;
 }
 
@@ -28,7 +29,7 @@ small {
 .navbar-button {
   background-color: white;
   color: #289bde;
-  border: 0.63 solid #289bde;
+  border: 2px solid #289bde;
   border-radius: 0.313rem;
   padding: 0.8rem 2.063rem;
   font-size: 1rem;
@@ -50,8 +51,8 @@ small {
   opacity: 0.7;
 }
 .carousel-caption h5 {
-  font-size: 3.7rem;
-  font-weight: 500;
+  margin-top: 5rem;
+  font-size: 3rem;
 }
 .carousel-caption p {
   font-size: 1.125rem;
@@ -107,6 +108,10 @@ small {
   padding: 0.5rem 2.063rem;
   border-radius: 0.313rem;
 }
+.modal-page {
+  width: 350px;
+  height: 250px;
+}
 /* Ready to join */
 
 /* Meet Our Successfull Students */
@@ -149,14 +154,61 @@ small {
 }
 /* Trusted by over 800+ companies */
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (max-width: 769px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .ellipsis-part {
+    position: relative;
+  }
+  .explore-ellipsis {
+    width: 308px;
+    height: 105px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .ellipsis-last {
+    cursor: pointer;
+    font-size: 16px;
+    color: #289bde;
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+  }
+  .Frequently-d-none {
+    display: none;
+  }
   .ready-flex {
     flex-direction: column;
     text-align: center;
   }
   .ready-flex-2 {
-    margin-right: 150px;
+    margin: 0px auto;
+    margin-top: 0.9rem;
   }
+  .student-margin {
+    margin-top: 1.25rem;
+  }
+  .studtent-text {
+    text-align: center;
+  }
+  .rounded-start img {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  /* .ready-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ready-flex-2 {
+    margin-right: 150px;
+    margin-top: 0.9rem;
+  } */
 
   .explore-img img {
     height: 70vh;
@@ -172,9 +224,9 @@ small {
   }
   .discover-button-show {
     display: initial;
-    margin-top: -50px;
+    margin-top: -3.125rem;
   }
   .student-btn {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 }

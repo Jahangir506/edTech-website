@@ -167,7 +167,7 @@
           <div>
             <div class="card mb-3" style="max-width: 668px;">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                   <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
                 </div>
                 <div class="col-md-8">
@@ -292,8 +292,9 @@
             <div class="col-lg-7 col-md-7 d-flex justify-content-center align-items-center explore-bg ">
               <div class="card-body">
                 <h5 class="card-title fs-1 fw-semibold ms-2">Explore The elearning <br> Institute</h5>
-                <div>
-                  <p class="card-text mt-3 ms-2">There are many variations of passages of Lorem Ipsum available, but the
+                <div class="ellipsis-part">
+                  <p class="card-text mt-3 ms-2 explore-ellipsis">There are many variations of passages of Lorem Ipsum
+                    available, but the
                     majority
                     have suffered alteration in some form,
                     by injected humour, or randomised words which don't look even slightly believable. If you are going
@@ -303,7 +304,7 @@
 
                     Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet
                     tend to repeat
-                    predefined.</p>
+                    predefined.</p><span class="ellipsis-last">See More</span>
                 </div>
                 <div class="d-flex ms-2">
                   <h1 class="explore-units-margin fw-semibold fs-2 mt-4">
@@ -340,9 +341,38 @@
               looking at its
               layout.</p>
           </div>
-          <div class="fs-5 mx-auto me-5 google-font-button">
-            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"><button
-                class="ready-join-button ready-flex-2">Register Now</button></a>
+          <div class="d-flex justify-content-start align-items-center ms-auto">
+            <div class="fs-5 mx-auto me-5 google-font-button">
+              <button type="button" class="ready-join-button ready-flex-2" data-bs-toggle="modal"
+                data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Register Now</button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Going to Login Page</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body mx-auto">
+                      <div class="shadow modal-page">
+                        <h5 class="text-center pt-5">Login Please</h5>
+                        <div class="d-flex flex-column justify-content-center align-items-center mt-5">
+                          <p>Email: <input class="ms-5" type="email" name="email" id="" placeholder="email address"
+                              required></p>
+                          <p>Password: <input class="ms-3" type="password" name="password" id="" placeholder="password"
+                              required>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -351,24 +381,53 @@
 
     <!-- Meet Our Successfull Students -->
     <section class="container student-m">
-      <h1 class="fs-1 fw-semibold Successfull-Students-fs">Meet Our Successfull <br> Students</h1>
-      <p class="student-dark-p mt-3">It is a long established fact that a reader will be distracted by the <br> readable
-        content of a page when
-        looking
-        at its
-        layout.</p>
+      <div class="studtent-text">
+        <h1 class="fs-1 fw-semibold Successfull-Students-fs text-sm-start">Meet Our Successfull <br> Students</h1>
+        <p class="student-dark-p text-sm-start text-sm-start">It is a long established fact that a reader will be
+          distracted by
+          the <br>
+          readable
+          content of a page when
+          looking
+          at its
+          layout.</p>
+      </div>
       <div class="row mt-4">
-        <div class="col-lg-3 col-md-6">
-          <img class="img-fluid" src="images/student/student-1.png" alt="" srcset="">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+          <div class="card">
+            <img class="img-fluid" src="images/student/student-1.png" alt="" srcset="">
+            <div class="card-body">
+              <h4 class="text-center fw-semibold">Imran Hossain</h4>
+              <h6 class="fs-6 feedback-dark-p text-center">Graphic Designer</>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <img class="img-fluid" src="images/student/student-2.png" alt="" srcset="">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+          <div class="card">
+            <img class="img-fluid" src="images/student/student-2.png" alt="" srcset="">
+            <div class="card-body">
+              <h4 class="text-center fw-semibold">Nishi Akter</h4>
+              <h6 class="fs-6 feedback-dark-p text-center"> Web Devoloper</h6>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <img class="img-fluid" src="images/student/student-3.png" alt="" srcset="">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+          <div class="card">
+            <img class="img-fluid" src="images/student/student-3.png" alt="" srcset="">
+            <div class="card-body">
+              <h4 class="text-center fw-semibold">Jannatul Islam</h4>
+              <h6 class="fs-6 feedback-dark-p text-center">Motion Designer</>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <img class="img-fluid" src="images/student/student-4.png" alt="" srcset="">
+        <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+          <div class="card">
+            <img class="img-fluid" src="images/student/student-4.png" alt="" srcset="">
+            <div class="card-body">
+              <h4 class="text-center fw-semibold">Imran Hossain</h4>
+              <h6 class="fs-6 feedback-dark-p text-center">Graphic Designer</>
+            </div>
+          </div>
         </div>
       </div>
       <div class="d-flex justify-content-center align-items-center mt-3 fs-5 ms-3 google-font-button mt-5">
