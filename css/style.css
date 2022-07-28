@@ -1,6 +1,131 @@
 ::-webkit-scrollbar {
   display: none;
 }
-.explore-margin {
-  margin-right: 50px;
+body {
+  font-family: "Poppins", sans-serif;
 }
+.navbar-anchor,
+.navbar-button,
+.nav-menu,
+.google-font-button,
+h5,
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+
+/* navbar section */
+.navbar-button {
+  background-color: white;
+  color: #289bde;
+  border: 1px solid #289bde;
+  border-radius: 5px;
+  padding: 8px 33px;
+  font-size: 20px;
+  line-height: 5.313rem;
+}
+.navbar-anchor {
+  line-height: 3.75rem;
+}
+/* navbar section */
+
+/*-------------- 
+    banner
+  ------------*/
+.carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.7;
+}
+.carousel-caption h5 {
+  font-size: 4.063rem;
+  font-weight: 600;
+}
+.carousel-caption p {
+  font-size: 18px;
+  top: 2rem;
+}
+.banner-button-bg {
+  background-color: #289bde;
+  color: white;
+  border: none;
+  padding: 13px 33px;
+  border-radius: 5px;
+}
+/*-------------- 
+    banner
+  ------------*/
+
+/* Discover Our Popular Courses */
+.discover-p {
+  color: #777;
+}
+.text-color {
+  color: #289bde;
+}
+/* Discover Our Popular Courses */
+
+/* Explore The elearning Institute */
+.explore-bg {
+  background-color: #f4fafd;
+}
+.explore-units-margin {
+  margin-right: 4.118rem;
+}
+.explore-my {
+  margin: 8.125rem auto;
+}
+/* Explore The elearning Institute */
+
+/* Ready to join */
+.ready-join-bg {
+  background-color: #289bde;
+}
+.ready-join-fs {
+  font-size: 2.813rem;
+}
+.ready-join-button {
+  background-color: white;
+  color: #289bde;
+  border: none;
+  padding: 8px 33px;
+  border-radius: 5px;
+}
+/* Ready to join */
+
+/* Meet Our Successfull Students */
+.Successfull-Students-fs {
+  font-size: 2.813rem;
+}
+.student-dark-p {
+  color: #777;
+}
+.student-btn {
+  background-color: #289bde;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+.student-m {
+  margin: 8.125rem auto;
+}
+/* Meet Our Successfull Students */
+
+/* Some Students Feedback */
+.feedback-dark-p {
+  color: #777;
+}
+.feedback-student-card {
+  width: 648px;
+}
+/* Some Students Feedback */
