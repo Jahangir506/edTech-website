@@ -9,6 +9,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.carousel-caption{
+
+}
 .navbar-anchor,
 .navbar-button,
 .nav-menu,
@@ -170,23 +173,12 @@ small {
     white-space: nowrap;
     text-overflow: ellipsis;
   }
-  .ellipsis-last {
-    cursor: pointer;
-    font-size: 16px;
-    color: #289bde;
-    position: absolute;
-    bottom: 40px;
-    right: 100px;
-  }
-  .Frequently-d-none {
-    display: none;
-  }
   .ready-flex {
     flex-direction: column;
     text-align: center;
   }
   .ready-flex-2 {
-    margin: 0px auto;
+    margin-right: 65px;
     margin-top: 0.9rem;
   }
   .student-margin {
@@ -196,31 +188,30 @@ small {
     text-align: center;
   }
   .rounded-start img {
-    width: 100vw;
+    width: 100%;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-  /* .ready-flex {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .ready-flex {
     flex-direction: column;
     text-align: center;
   }
   .ready-flex-2 {
     margin-right: 150px;
     margin-top: 0.9rem;
-  } */
+  }
 
   .explore-img img {
     height: 70vh;
   }
   .student-margin {
     margin-top: 1.25rem;
-  }
-  .Frequently-d-none {
-    display: none;
-  }
-  .discover-button-none {
-    display: none;
   }
   .discover-button-show {
     display: initial;
