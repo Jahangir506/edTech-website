@@ -60,18 +60,12 @@ small {
   border-radius: 0.313rem;
   font-size: 1rem;
 }
-/*-------------- 
-    banner
-  ------------*/
-
-/* Discover Our Popular Courses */
-.discover-p {
+.common-dark-color{
   color: #777;
 }
 .text-color {
   color: #289bde;
 }
-/* Discover Our Popular Courses */
 
 /* Explore The elearning Institute */
 .explore-bg {
@@ -106,9 +100,6 @@ small {
 .Successfull-Students-fs {
   font-size: 2.813rem;
 }
-.student-dark-p {
-  color: #777;
-}
 .student-btn {
   background-color: #289bde;
   color: white;
@@ -119,12 +110,6 @@ small {
 .student-m {
   margin: 5.125rem auto;
 }
-/* Meet Our Successfull Students */
-
-/* Some Students Feedback */
-.feedback-dark-p {
-  color: #777;
-}
 .feedback-student-card {
   width: 648px;
 }
@@ -134,22 +119,11 @@ small {
 .feedback-star-color {
   color: #fbbf24;
 }
-/* Some Students Feedback */
-
-/* Trusted by over 800+ companies */
-.Trusted-m {
-  margin-right: 3.4rem;
-}
-/* Trusted by over 800+ companies */
-
 @media screen and (max-width: 769px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  .ellipsis-part {
-    position: relative;
   }
   .explore-ellipsis {
     width: 308px;
@@ -161,12 +135,7 @@ small {
   .ready-m {
     margin: 0px auto;
   }
-  .student-margin {
-    margin-top: 1.25rem;
-  }
-  .studtent-text {
-    text-align: center;
-  }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -177,8 +146,5 @@ small {
   }
    .ready-m {
     margin: 0px auto;
-  }
-  .student-btn {
-    margin-top: 1.25rem;
   }
 }
