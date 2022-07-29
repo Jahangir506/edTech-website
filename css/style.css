@@ -17,7 +17,8 @@ body {
 .google-font-button,
 h5,
 h1,
-h4 {
+h4,
+h6 {
   font-family: "Poppins", sans-serif;
 }
 
@@ -26,8 +27,6 @@ small {
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
 }
-
-/* navbar section */
 .navbar-button {
   background-color: white;
   color: #289bde;
@@ -36,11 +35,6 @@ small {
   padding: 0.8rem 2.063rem;
   font-size: 1rem;
 }
-/* navbar section */
-
-/*-------------- 
-    banner
-  ------------*/
 .carousel-item::before {
   content: "";
   display: block;
@@ -60,14 +54,12 @@ small {
   border-radius: 0.313rem;
   font-size: 1rem;
 }
-.common-dark-color{
+.common-dark-color {
   color: #777;
 }
 .text-color {
   color: #289bde;
 }
-
-/* Explore The elearning Institute */
 .explore-bg {
   background-color: #f4fafd;
 }
@@ -77,9 +69,7 @@ small {
 .explore-my {
   margin: 6.125rem auto;
 }
-/* Explore The elearning Institute */
 
-/* Ready to join */
 .ready-join-bg {
   background-color: #289bde;
 }
@@ -94,9 +84,6 @@ small {
   width: 350px;
   height: 250px;
 }
-/* Ready to join */
-
-/* Meet Our Successfull Students */
 .Successfull-Students-fs {
   font-size: 2.813rem;
 }
@@ -119,6 +106,10 @@ small {
 .feedback-star-color {
   color: #fbbf24;
 }
+.banner-h-100 {
+  height: 95%;
+}
+
 @media screen and (max-width: 769px) {
   * {
     margin: 0;
@@ -135,7 +126,6 @@ small {
   .ready-m {
     margin: 0px auto;
   }
-
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -144,7 +134,7 @@ small {
     padding: 0;
     box-sizing: border-box;
   }
-   .ready-m {
+  .ready-m {
     margin: 0px auto;
   }
 }
